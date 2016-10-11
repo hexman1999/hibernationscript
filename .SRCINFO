@@ -1,0 +1,11 @@
+pkgbase = hibernatescript
+	pkgdesc = Python script for hibernating the pc after a period of sleep using interactive terminal
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/mohamedraesa/hibernationscript/blob/master/HibernateScript.py
+	arch = any
+	license = gpl
+	depends = python3
+
+pkgname = hibernatescript
+
