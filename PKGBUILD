@@ -11,11 +11,6 @@ depends=('python3', 'pm-utils', 'systemd', 'libsystemd')
 
 build() {
 git clone https://github.com/mohamedraesa/hibernationscript/ hiberscript
-#cd hibernationscript-Master
-#mkdir usr
-#cd usr
-#mkdir bin
-#mv ../HibernationScript.py bin/hibernation-script
 }
 
 package() {
