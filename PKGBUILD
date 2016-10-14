@@ -7,7 +7,7 @@ pkgdesc="Python script for hibernating the pc after a period of sleep using inte
 arch=('any')
 url="https://github.com/mohamedraesa/hibernationscript/blob/master/HibernateScript.py"
 license=('gpl')
-depends=('python3', 'pm-utils', 'systemd', 'libsystemd')
+depends=('python3' 'pm-utils' 'systemd' 'libsystemd')
 
 build() {
 git clone https://github.com/mohamedraesa/hibernationscript/ hiberscript
